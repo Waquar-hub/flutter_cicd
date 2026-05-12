@@ -4,8 +4,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_cicd/main.dart';
 
 void main() {
-  test('Counter increments smoke test', () {
-    expect(1 + 1, 2);
+  test('simple arithmetic: 1 + 1 equals 2', () {
+    expect(1 + 1, 3);
   });
 
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
